@@ -1,0 +1,86 @@
+{
+	"category": "Radio",
+	"name": "RadioNordic",
+	"inputs": 1,
+	"outputs": 1,
+	"parameters": [
+		{
+			"name": "Mode",
+			"type": "option",
+			"default": "RADIO_MODE_BIDIR",
+			"options": [
+				"RADIO_MODE_TX_ONLY",
+				"RADIO_MODE_RX_ONLY",
+				"RADIO_MODE_BIDIR"
+			],
+			"value": "RADIO_MODE_BIDIR"
+		},
+		{
+			"name": "Radio Rate",
+			"type": "option",
+			"default": "RADIO_RATE_2M",
+			"options": [
+				"RADIO_RATE_1M",
+				"RADIO_RATE_2M",
+				"RADIO_RATE_250K"
+			],
+			"value": "RADIO_RATE_2M"
+		},
+		{
+			"name": "Payload Length",
+			"type": "raw",
+			"default": "32",
+			"options": [],
+			"value": "32"
+		},
+		{
+			"name": "Address 0",
+			"type": "raw",
+			"default": "0x99",
+			"options": [],
+			"value": "0x99"
+		},
+		{
+			"name": "Address 1",
+			"type": "raw",
+			"default": "0x99",
+			"options": [],
+			"value": "0x99"
+		},
+		{
+			"name": "Address 2",
+			"type": "raw",
+			"default": "0x99",
+			"options": [],
+			"value": "0x99"
+		},
+		{
+			"name": "Address 3",
+			"type": "raw",
+			"default": "0x99",
+			"options": [],
+			"value": "0x99"
+		},
+		{
+			"name": "Address 4",
+			"type": "raw",
+			"default": "0x99",
+			"options": [],
+			"value": "0x99"
+		}
+	],
+	"labels": {
+		"input": ["Text"],
+		"output": ["Char"]
+	},
+	"schematic_pins": {
+		"inputs": [
+			1
+		],
+		"outputs": [
+			2
+		]
+	},
+	"repository": "https://github.com/nblocksStudioNodes/nblocks_stringserial",
+	"revision": ""
+}
