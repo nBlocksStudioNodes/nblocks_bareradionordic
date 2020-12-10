@@ -1,6 +1,6 @@
 {
 	"category": "Radio",
-	"name": "RadioNordic",
+	"name": "nRF5xRadio",
 	"inputs": 1,
 	"outputs": 1,
 	"parameters": [
@@ -70,8 +70,8 @@
 		}
 	],
 	"labels": {
-		"input": ["Text"],
-		"output": ["Char"]
+		"input": ["Transmit"],
+		"output": ["Received"]
 	},
 	"schematic_pins": {
 		"inputs": [
@@ -81,6 +81,6 @@
 			2
 		]
 	},
-	"repository": "https://github.com/nblocksStudioNodes/nblocks_stringserial",
+	"repository": "https://github.com/nblocksStudioNodes/nblocks_nrf5xradio",
 	"revision": ""
 }
