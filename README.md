@@ -1,1 +1,1 @@
-# nblocks_bareradionordic
+# nblocks_nRF5xRadio
